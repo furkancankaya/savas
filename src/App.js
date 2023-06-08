@@ -1,11 +1,16 @@
-
+import React from "react";
+import Header from "./components/navi/Header";
+import Products from "./components/products/Products";
 
 
 function App() {
   return (
-    <Container>
-      
-    </Container>
+    <div id="__next">
+       <Header/>
+       <Products/>
+    </div>
+       
+    
   );
 }
 
